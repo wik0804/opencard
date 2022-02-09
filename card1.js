@@ -2,6 +2,15 @@
 瓜分千万京豆 免费抽大奖
 
 https://lzdz1-isv.isvjcloud.com/dingzhi/shop/league/activity/6758593?activityId=dz220107100001616201shop&shareUuid=1d0d5fd0a72f4f9cb43f3c0ee722c19e
+请求太频繁会被黑ip
+过10分钟再执行
+
+
+cron:50 0,13 24-31,1-14 1,2 *
+============Quantumultx===============
+[task_local]
+# dingzhi/shop/league/activity联合开卡
+50 0,13 24-31,1-14 1,2 * card1.js, tag=dingzhi/shop/league/activity联合开卡, enabled=true
 **/
 
 const $ = new Env("瓜分千万京豆 免费抽大奖");
