@@ -16,7 +16,7 @@ cron:30 0,10 8-15 2 *
 ============Quantumultx===============
 [task_local]
 #2.8~2.15 臻宠会员，甜蜜告白
-30 0,10 8-15 2 * jd_opencard98.js, tag=2.8~2.15 臻宠会员，甜蜜告白, enabled=true
+30 0,10 8-15 2 * jd_opencard98.js, tag=dingzhi/customized/common联合开卡, enabled=true
 
 */
 const $ = new Env("2021.12.31-1.9大牌联合 年货盛宴");
