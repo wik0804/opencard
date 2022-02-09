@@ -15,8 +15,8 @@
 cron:50 0,13 24-31,1-14 1,2 *
 ============Quantumultx===============
 [task_local]
-#1.24~2.14 联合开卡
-50 0,13 24-31,1-14 1,2 * jd_opencardL62.js, tag=1.24~2.14 联合开卡, enabled=true
+#jinggengjcq-isv联合开卡
+50 0,13 24-31,1-14 1,2 * jd_opencardL62.js, tag=jinggengjcq-isv联合开卡, enabled=true
 
 */
 
